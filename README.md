@@ -2,6 +2,8 @@
 
 A basic starting in computer vision including YOLO finetuning for a specific task.
 
+Finetuning based onto following [HuggingFace football dataset](https://huggingface.co/datasets/keremberke/football-object-detection).
+
 
 # References
 
