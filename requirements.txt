@@ -1,0 +1,4 @@
+datasets
+pillow
+ultralytics
+matplotlib

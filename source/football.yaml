@@ -1,0 +1,7 @@
+names:
+- player
+- ball
+nc: 2
+test: ../datasets/yolo_football/images/test
+train: ../datasets/yolo_football/images/train
+val: ../datasets/yolo_football/images/validation
