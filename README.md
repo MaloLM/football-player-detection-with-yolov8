@@ -24,3 +24,26 @@ https://machinelearningspace.com/coco-dataset-a-step-by-step-guide-to-loading-an
 https://stackoverflow.com/questions/75268393/yolov8-how-does-it-handle-different-image-sizes
 
 https://umvie.com/guide-complet-sur-le-format-yolo-bbox-tout-ce-que-vous-devez-savoir/
+
+https://github.com/ultralytics/ultralytics/issues/1270#issuecomment-1550179877
+
+https://y-t-g.github.io/tutorials/yolov8n-add-classes/
+
+conda install -c conda-forge ultralytics
+
+
+conda remove --name tf-wsl --all
+
+
+https://github.com/MaloLM/jupyter-ml-with-GPU-support/blob/main/setup.md#setting-up-your-conda-virtual-environment
+
+https://docs.ultralytics.com/yolov5/tutorials/tips_for_best_training_results/
+
+
+What I have learn from this project ?
+
+- model requires a lot of data from the most perspectives possible. Classes having very few samples will be of course poorly detected and sometimes even missclassifyed.
+
+- I have learned how to use the Ultralytics YOLOv8 framework which will be usefull for many other usecases such as image segmentation, pose estimation, object tracking and image classification
+
+- It motivates me to commit myself in CNN model performances optimisation for being able to cover most of the CNN usecases, such as embedded computer vision.
