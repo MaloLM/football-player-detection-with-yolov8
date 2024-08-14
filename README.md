@@ -4,8 +4,9 @@ A basic starting in computer vision including YOLO finetuning for a specific tas
 
 Finetuning based onto following [HuggingFace football dataset](https://huggingface.co/datasets/keremberke/football-object-detection).
 
+## Recommended environment 
 
-# References
+## References
 
 https://huggingface.co/Ultralytics/YOLOv8
 
@@ -29,8 +30,9 @@ https://github.com/ultralytics/ultralytics/issues/1270#issuecomment-1550179877
 
 https://y-t-g.github.io/tutorials/yolov8n-add-classes/
 
-conda install -c conda-forge ultralytics
+To install ultralytics package through conda:
 
+> conda install -c conda-forge ultralytics
 
 conda remove --name tf-wsl --all
 
@@ -44,6 +46,6 @@ What I have learn from this project ?
 
 - model requires a lot of data from the most perspectives possible. Classes having very few samples will be of course poorly detected and sometimes even missclassifyed.
 
-- I have learned how to use the Ultralytics YOLOv8 framework which will be usefull for many other usecases such as image segmentation, pose estimation, object tracking and image classification
+- I have learned how to use the Ultralytics YOLOv8 framework which will be usefull for many other usecases such as image segmentation, pose estimation, object tracking and image classification, heatmaps...
 
 - It motivates me to commit myself in CNN model performances optimisation for being able to cover most of the CNN usecases, such as embedded computer vision.

@@ -167,11 +167,12 @@ cython_debug/
 datasets/*
 
 # Unignore important_file.txt inside my_directory
-!datasets/football_videos/set_videos_here.txt
-
+!datasets/videos/set_videos_here.txt
+!datasets/videos/test_video_1.mp4
 
 .DS_Store
 */runs/*
 *yolov8n*
 */test_results/*
 yolov8*
+*/test_results/*

@@ -2,3 +2,4 @@ datasets
 pillow
 ultralytics
 matplotlib
+onnx>=1.12.0
