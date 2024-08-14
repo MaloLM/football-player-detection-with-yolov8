@@ -1,5 +1,5 @@
 datasets
-pillow
 ultralytics
+pillow
 matplotlib
 onnx>=1.12.0
