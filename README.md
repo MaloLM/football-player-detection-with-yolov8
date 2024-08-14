@@ -1,4 +1,4 @@
-# Football Player Detection with YOLO
+# Football Player Detection with YOLOv8
 
 This project demonstrates the use of Ultralytics YOLOv8 for a specific task: detecting football players in images. The project includes the entire process, from dataset preparation to model testing, including training, validation and exportation.
 
