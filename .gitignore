@@ -170,6 +170,7 @@ datasets/yolo_football/*
 !/datasets/videos/test_video_1.mp4
 
 .DS_Store
+todo.md
 */runs/*
 *yolov8n*
 yolov8*
