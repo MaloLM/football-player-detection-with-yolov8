@@ -1,12 +1,29 @@
 # Football Player Detection with YOLO
 
-This project demonstrates the use of Ultralytics YOLOv8 for a specific task: detecting football players in images. The project includes the entire process, from dataset preparation to model testing, including training and validation.
+This project demonstrates the use of Ultralytics YOLOv8 for a specific task: detecting football players in images. The project includes the entire process, from dataset preparation to model testing, including training, validation and exportation.
 
 ![demo](./demo_gif.gif)
 
 ## Dataset
 
 The dataset used for this project is the [HuggingFace football dataset](https://huggingface.co/datasets/keremberke/football-object-detection). This dataset contains images of football matches, with annotations indicating the location and size of football players and the ball in each image.
+
+## Base model
+
+The pre-trained YOLO model used in this project is YOLOv8m for object detection. However, the project is flexible and allows for the use of any other YOLO model size, as long as it is also for object detection.
+
+The table below summarizes the key characteristics of the YOLOv8m model:
+
+| Model       | Size (pixels) | mAP val 50-95 | Speed (CPU ONNX ms) | Speed (A100 TensorRT ms) | Params (M) | FLOPs (B) |
+|-------------|---------------|---------------|---------------------|--------------------------|------------|-----------|
+| YOLOv8m     | 640           | 50.2          | 234.7               | 1.83                     | 25.9       | 78.9      |
+
+- Size (pixels): The input image size for the model is 640 pixels.
+- mAP val 50-95: The mean average precision (mAP) score of the model on the validation dataset, calculated using intersection over union (IoU) thresholds of 0.5 to 0.95, is 50.2.
+- Speed (CPU ONNX ms): The average inference time of the model on a CPU using ONNX runtime is 234.7 milliseconds.
+- Speed (A100 TensorRT ms): The average inference time of the model on an NVIDIA A100 GPU using TensorRT is 1.83 milliseconds.
+- Params (M): The number of trainable parameters in the model is 25.9 million.
+- FLOPs (B): The number of floating point operations required to perform a forward pass through the model is 78.9 billion.
 
 ## Environment Recommendations
 
