@@ -164,15 +164,16 @@ cython_debug/
 #### Project custom
 
 # Ignore everything inside my_directory
-datasets/*
+datasets/yolo_football/*
 
 # Unignore important_file.txt inside my_directory
-!datasets/videos/set_videos_here.txt
-!datasets/videos/test_video_1.mp4
+!/datasets/videos/set_videos_here.txt
+!/datasets/videos/test_video_1.mp4
 
 .DS_Store
 */runs/*
 *yolov8n*
-*/test_results/*
 yolov8*
+*/test_results/*
+
 */test_results/*
